@@ -1,12 +1,10 @@
 <template>
     <v-sheet
       class="mx-auto"
-      elevation="1"
-      style="background-color: transparent; width: fit-content"
-      
+      elevation="0"
+      style="background-color: transparent;"
     >
       <v-slide-group
-        v-model="model"
         class="ml-0"
         center-active
         show-arrows
@@ -41,8 +39,8 @@
                       </p>
                       <a
                         v-if="card.flipped"
-                        :href="card.flipped ? card.companyLink : null"
-                        >Job Link</a
+                        :href="card.projectLink"
+                        >{{card.cardLink}}</a
                       >
                       <p>{{ card.flipped ? null : card.jobDate }}</p>
                     </div>
@@ -65,11 +63,7 @@ export default {
   },
   methods: {
     toggleCard: function (card) {
-      // if (card.flipped) {
-      //   return null
-      // } else {
       card.flipped = !card.flipped
-      // }
     },
   },
 }
@@ -113,6 +107,8 @@ ul {
 
 .slider-item:hover {
   transform: scale(1.1);
+  z-index: 999;
+  outline: 1px solid black;
 }
 
 .slider-item:nth-child(-n + 3) .card {

@@ -1,0 +1,41 @@
+<template>
+  <v-item-group class="mt-5">
+
+    <v-item class="v-item">
+      <a href="https://wa.me/89161031712"
+        ><img width="100" height="100" src="/whatsapp.png" alt="whatsapp"
+      /></a>
+    </v-item>
+
+    <v-item>
+      <a href="https://t.me/+79161031712"
+        ><img width="100" height="100" src="/telegram.png" alt="telegram"
+      /></a>
+    </v-item>
+
+    <v-item>
+      <a href="mailto:toporkov123561@mail.ru"
+        ><img width="100" height="100" src="/mail.png" alt="mail"
+      /></a>
+    </v-item>
+
+    <v-item>
+      <a href="https://github.com/TSergey123"
+        ><img width="100" height="100" src="/github.png" alt="github"
+      /></a>
+    </v-item>
+
+    <v-item>
+      <a href="https://hh.ru/resume/9ae741deff02f599f40039ed1f31424d69356a"
+        ><img width="100" height="100" src="/hh.png" alt="hh"
+      /></a>
+    </v-item>
+    
+  </v-item-group>
+</template>
+<script>
+export default {
+  name: 'InfoList',
+}
+</script>
+<style></style>
