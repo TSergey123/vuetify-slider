@@ -2,7 +2,7 @@
   <v-item-group class="mt-5">
 
     <v-item class="v-item">
-      <a href="https://wa.me/89161031712"
+      <a href="https://wa.me/+79161031712"
         ><img width="100" height="100" src="/whatsapp.png" alt="whatsapp"
       /></a>
     </v-item>
