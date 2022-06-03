@@ -21,10 +21,10 @@ export default {
     return {
       positions: [
         {
-          companyLogo: 'v.png',
-          toolLogo: 'v.png',
-          positionTitle: 'Vue developer',
-          jobDate: '2022-2022',
+          companyLogo: 'js.svg',
+          toolLogo: 'js.svg',
+          positionTitle: 'QA Automation',
+          jobDate: '2020-2022',
           companyName: 'Rshb-intech',
           companyLink: 'https://google.com',
           flipped: false,
@@ -33,7 +33,7 @@ export default {
           companyLogo: 'qa.png',
           toolLogo: 'qa.png',
           positionTitle: 'Senior QA Engineer',
-          jobDate: '2018-2022',
+          jobDate: '2018-2020',
           companyName: 'TechnoProgress',
           companyLink: 'https://google.com',
           flipped: false,
