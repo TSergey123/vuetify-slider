@@ -3,7 +3,7 @@
     <v-container style="height: 100%">
       <v-row align="center" style="height: 100%">
         <v-col cols="12" class="pl-0 pr-0" align="center">
-          <h1 class="text">Work Experince</h1>
+          <h1 class="text">Work Experience</h1>
           <ListSliderList :cards="positions" />
           <h1 class="mt-5">Pet Projects</h1>
           <ListSliderList :cards="projects" />
